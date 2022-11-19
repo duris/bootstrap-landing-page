@@ -1,0 +1,56 @@
+body,html{
+  background-color: rgb(201, 197, 192);
+  overflow: hidden;
+}
+.bg-img{
+  background-color: aliceblue;
+  background-size: 180%;
+  background-image: url('beach.jpg') ;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-position: -390px 0px;
+  overflow: hidden;
+}
+.wrap{
+  position: relative;
+}
+
+.outer{
+  text-align: center;
+  position: relative;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.outer div{
+  border: 1px solid #000;
+  flex: 0 100% 0 ;
+}
+.row:nth-child(1){
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: underline;
+  text-decoration-skip-ink: auto;
+}
+/* html {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+}
+
+
+@media (min-width: 576px) {
+  .fixed {
+      flex: 0 0 200px;
+      min-height: 100vh;
+  }
+  .col .fluid {
+     min-height: 100vh;
+  }
+}
+
+.flex-grow {
+  flex:1;
+} */
