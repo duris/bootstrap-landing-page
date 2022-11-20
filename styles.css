@@ -32,25 +32,10 @@ body,html{
   text-decoration: underline;
   text-decoration-skip-ink: auto;
 }
-/* html {
-  height: 100%;
+
+div p {
+  color: red;
 }
-
-body {
-  min-height: 100vh;
+div p {
+  color: blue;
 }
-
-
-@media (min-width: 576px) {
-  .fixed {
-      flex: 0 0 200px;
-      min-height: 100vh;
-  }
-  .col .fluid {
-     min-height: 100vh;
-  }
-}
-
-.flex-grow {
-  flex:1;
-} */
